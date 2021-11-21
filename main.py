@@ -31,7 +31,7 @@ def main():
         fractie2 = fractie(c, d)
         res = fractie(fractie1,fractie2)
         res = fractie1.add(fractie2)
-        print(res)
+        print(res.to_string())
 
 main()
 
